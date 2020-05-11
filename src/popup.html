@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Woot - Screen recorder</title>
+    <style>
+      .hide {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <div class="pre-recording hide">
+        <ul class="record-options">
+          <li>
+            Screen + Cam
+          </li>
+          <li>
+            Screen
+          </li>
+        </ul>
+        <p>
+          <input type="checkbox" name="mic" value="1" checked />
+          <label for="mic"> Mic Sound</label><br />
+        </p>
+        <button id="start-recording">
+          Start Recording
+        </button>
+      </div>
+      <div class="recording hide">
+        <h1 class="elapsed-time">00:00</h1>
+        <button id="stop-recording">
+          Stop Recording
+        </button>
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
