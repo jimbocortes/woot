@@ -1,5 +1,5 @@
 
-<p align="center">
+<p align="left">
  <img src="https://github.com/jimbocortes/woot/blob/master/images/a_icon128.png" alt="Woot"/>
 </p>
 
